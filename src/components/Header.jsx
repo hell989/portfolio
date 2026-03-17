@@ -24,19 +24,19 @@ export default function Header() {
 				<div className="flex items-center gap-4 sm:gap-6">
 					<nav className="flex gap-4 sm:gap-6">
 						<Link
-							to="/"
+							to="/portfolio"
 							className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground flex flex-col items-center">
 							<Home className="size-5" />
 							Home
 						</Link>
 						<Link
-							to="/about"
+							to="/portfolio/about"
 							className="text-sm  flex flex-col items-center font-medium text-muted-foreground transition-colors hover:text-foreground">
 							<User className="size-5" />
 							Blog
 						</Link>
 						<Link
-							to="/contact"
+							to="/portfolio/contact"
 							className="text-sm  flex flex-col items-center font-medium text-muted-foreground transition-colors hover:text-foreground">
 							<Mail className="size-5" />
 							Contact
