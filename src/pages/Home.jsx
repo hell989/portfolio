@@ -9,7 +9,7 @@ const HomePage = () => {
 						Software Engineer & Designer
 					</h2>
 					<h1 className="text-5xl md:text-7xl font-extrabold text-slate-900 mb-6">
-						Hi, I'm{" "}
+						Hi, I'm
 						<span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600">
 							Sonu Kumar Sah
 						</span>

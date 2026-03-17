@@ -23,7 +23,6 @@ const AboutPage = () => {
 	return (
 		<div className="min-h-screen bg-white py-20 px-6">
 			<div className="max-w-6xl mx-auto">
-				{/* Top Section: Story */}
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-20 items-center">
 					<div>
 						<h2 className="text-indigo-600 font-bold tracking-widest uppercase text-sm mb-2">
@@ -50,8 +49,6 @@ const AboutPage = () => {
 							</p>
 						</div>
 					</div>
-
-					{/* Stats/Fun Facts Box */}
 					<div className="grid grid-cols-2 gap-4">
 						<div className="p-8 bg-slate-50 rounded-3xl border border-slate-100 flex flex-col items-center justify-center text-center">
 							<span className="text-4xl font-black text-indigo-600 mb-1">
@@ -82,7 +79,6 @@ const AboutPage = () => {
 					</div>
 				</div>
 
-				{/* Bottom Section: Skills Grid */}
 				<div className="pt-16 border-t border-slate-100">
 					<h3 className="text-2xl font-bold text-slate-900 mb-10 text-center md:text-left">
 						Technical Toolkit

@@ -36,7 +36,6 @@ const ContactPage = () => {
 								<p className="font-bold">worldNothing192@gamil.com</p>
 							</div>
 						</div>
-
 						<div className="flex items-center gap-4 text-slate-700">
 							<div className="p-3 bg-purple-50 rounded-lg text-purple-600">
 								<MapPin size={24} />
@@ -49,8 +48,6 @@ const ContactPage = () => {
 							</div>
 						</div>
 					</div>
-
-					{/* Social Links matching your Nav icons */}
 					<div className="flex gap-4 pt-4">
 						<a
 							href="#"
@@ -69,10 +66,8 @@ const ContactPage = () => {
 						</a>
 					</div>
 				</div>
-
-				{/* Right Side: Contact Form */}
 				<div className="relative group">
-					{/* Subtle purple glow to match the image border on your home page */}
+
 					<div className="absolute -inset-1 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-2xl blur opacity-20 group-hover:opacity-30 transition"></div>
 
 					<form className="relative bg-white p-8 md:p-10 rounded-2xl shadow-xl border border-slate-100 space-y-6">

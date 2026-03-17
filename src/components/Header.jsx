@@ -6,7 +6,7 @@ import {
 	Mail,
 	User,
 } from "lucide-react";
-import {Link} from "react-router";
+import { Link  } from "react-router";
 
 export default function Header() {
 	return (
@@ -20,7 +20,6 @@ export default function Header() {
 						<span className="text-green-500">Shah</span>
 					</span>
 				</Link>
-
 				<div className="flex items-center gap-4 sm:gap-6">
 					<nav className="flex gap-4 sm:gap-6">
 						<Link
