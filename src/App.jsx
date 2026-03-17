@@ -7,14 +7,22 @@ import ContactPage from "./components/Conatct";
 import AboutPage from "./components/About";
 
 const App = () => {
-  return <div>
-    <Header></Header>
-    <Routes>
-      <Route path="/" element={<HomePage/>}></Route>
-      <Route path="/contact" element={<ContactPage/>}></Route>
-      <Route path="/about" element={<AboutPage/>}></Route>
-    </Routes>
-  </div>;
+  return (
+		<div>
+			<Header></Header>
+			<Routes>
+				<Route
+					path="/portfolio"
+					element={<HomePage />}></Route>
+				<Route
+					path="/portfolio/contact"
+					element={<ContactPage />}></Route>
+				<Route
+					path="/portfolio/about"
+					element={<AboutPage />}></Route>
+			</Routes>
+		</div>
+  );
 };
 
 export default App;
