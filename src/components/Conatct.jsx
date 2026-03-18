@@ -33,7 +33,7 @@ const ContactPage = () => {
 								<p className="text-sm text-slate-500 font-medium">
 									Email me at
 								</p>
-								<p className="font-bold">worldNothing192@gamil.com</p>
+								<p className="font-bold">worldnothing1928@gmail.com</p>
 							</div>
 						</div>
 						<div className="flex items-center gap-4 text-slate-700">
