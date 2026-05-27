@@ -1,20 +1,22 @@
-// Updated routing paths and fixed import
+import React from "react";
+import { Route, Routes } from "react-router";
 
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Home from './Home';
-import Contact from './Contact'; // Fixed typo in import
+import Header from "./components/Header";
+import HomePage from "./pages/Home";
+import AboutPage from "./components/About";
+import ContactPage from "./components/Conatct";
 
 function App() {
-    return (
-        <Router>
-            <Switch>
-                <Route exact path='/' component={Home} />   // Updated path
-                <Route exact path='/portfolio' component={Home} />  // Updated path to render Home on /portfolio as well
-                <Route exact path='/contact' component={Contact} />
-            </Switch>
-        </Router>
-    );
+  return (
+    <>
+    <Header></Header>
+      <Routes>
+        <Route exact path="/portfolio" element={<HomePage/>} />
+        <Route exact path="/portfolio/about" element={<AboutPage/>} />
+        <Route exact path="/portfolio/contact" element={<ContactPage/>} />
+      </Routes>
+    </>
+  );
 }
 
 export default App;

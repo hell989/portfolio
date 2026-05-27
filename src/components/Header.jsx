@@ -43,9 +43,16 @@ export default function Header() {
 					</nav>
 				</div>
 				<div className="flex gap-3 text-sm font-medium text-muted-foreground items-center justify-center">
+					<Link to="https://github.com/hell989">
 					<Github></Github>
+					</Link>
+					<Link to="https://www.facebook.com/sonu.shah.604141/">
 					<Facebook></Facebook>
+					</Link>
+					
+				<Link to="https://www.linkedin.com/in/sonu-kumar-sah-50ab48286?utm_source=share_via&utm_content=profile&utm_medium=member_android">
 					<Linkedin></Linkedin>
+				</Link>
 					<></>
 				</div>
 			</div>
